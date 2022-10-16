@@ -1,0 +1,1 @@
+python code/combined.py --model_name resnet18 --gpu 0 --attack 'pgd' --s_dataset 'tiny_imagenet'

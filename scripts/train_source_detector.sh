@@ -1,0 +1,1 @@
+python code/train_source_detector.py --dataset 'fmnist' --gpu 0 --only_eval

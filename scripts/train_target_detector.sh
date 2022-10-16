@@ -1,0 +1,1 @@
+python code/train_target_detector.py --model_name resnet18 --gpu 0 --attack 'pgd' --s_dataset 'tiny_imagenet' --ent_par 0.80 --cls_par 0.30
