@@ -1,16 +1,31 @@
-## Pytorch implementation for DAD: Data-free Adversarial Defense at Test Time
+# DAD: Data-free Adversarial Defense at Test Time (WACV 2022) - Official Implementation
+
+Paper link: https://openaccess.thecvf.com/content/WACV2022/papers/Nayak_DAD_Data-Free_Adversarial_Defense_at_Test_Time_WACV_2022_paper.pdf
+
+Poster: https://drive.google.com/file/d/16VvThgTOMY28dMTlk4-NA9O9WQMyWLEc/view
+
+Project webpage: https://sites.google.com/view/dad-wacv22
+
+<hr>
 
 ### Method Overview
 ![technique overview](assets/dad-tech-overview.png)
 
-### Evaluating Combined Performance (Correction + Detection):
-``` ./scripts/combined.sh```
+<hr>
 
 ### Dependencies
 - tqdm
 - torch
 - numpy
 - torchattacks
+
+<hr>
+
+
+### Evaluating Combined Performance (Correction + Detection):
+``` ./scripts/combined.sh```
+
+<hr>
 
 ### Citation:
 If you use this code, please cite our work as:
@@ -24,6 +39,7 @@ If you use this code, please cite our work as:
         year={2022}
     }
 ```
+<hr>
 
 ### Acknowledgements
 
